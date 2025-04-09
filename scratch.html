@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Luke Wagner - Snowboarding Passion</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="mainNav">
+    <div class="container px-4 px-lg-5">
+      <a class="navbar-brand" href="homepage.html">Luke Wagner</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+        Menu <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto py-4 py-lg-0">
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="scratch.html">My Passion</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="resume.html">Resume</a></li>
+          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="app.html">Joke Generator</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="mb-5 mt-5">
+    <div class="container px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-7">
+          <h1>My Passion for Snowboarding</h1>
+          <p>Snowboarding has been a passion of mine since the beginning of high school.</p>
+
+          <h2>Reasons Why I Love Snowboarding</h2>
+          <ol>
+            <li>Thrill and Freedom
+              <ul>
+                <li>There is no better feeling than riding in fresh powder</li>
+                <li>It is adrenaline inducing</li>
+              </ul>
+            </li>
+            <li>Character and Memories
+              <ul>
+                <li>It is slightly dangerous (it’s given me some scars)</li>
+                <li>It is a great way to bond with siblings</li>
+                <li>Makes for a great date activity</li>
+              </ul>
+            </li>
+          </ol>
+
+          <div class="text-center my-4">
+            <img src="IMG/AVERYSNOW.JPG" style="max-width: 400px;" class="img-fluid rounded" alt="Snowboarding fun">
+          </div>
+
+          <h2>Snowboarding Highlights</h2>
+          <div class="text-center mb-4">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tHHxTHZwFUw" frameborder="0" allowfullscreen></iframe>
+          </div>
+
+          <a href="#tableau" class="btn btn-outline-secondary mb-4">Jump to Tableau Visualization ↓</a>
+
+          <h2 id="tableau">Interactive Tableau Graph</h2>
+          <div class="tableauPlaceholder" id="vizSochi" style="width: 100%; height: 700px;">
+            <object class="tableauViz" width="100%" height="700" style="display:none;">
+              <param name="host_url" value="https://public.tableau.com/" />
+              <param name="embed_code_version" value="3" />
+              <param name="site_root" value="" />
+              <param name="name" value="SochiOlympics_1027/SochiDashboard" />
+              <param name="tabs" value="no" />
+              <param name="toolbar" value="yes" />
+              <param name="static_image" value="https://public.tableau.com/static/images/So/SochiOlympics_1027/SochiDashboard/1.png" />
+              <param name="animate_transition" value="yes" />
+              <param name="display_static_image" value="yes" />
+              <param name="display_spinner" value="yes" />
+              <param name="display_overlay" value="yes" />
+              <param name="display_count" value="yes" />
+            </object>
+          </div>
+          <script type="text/javascript">
+            var divElement = document.getElementById("vizSochi");
+            var vizElement = divElement.getElementsByTagName("object")[0];
+            vizElement.style.width = "100%";
+            vizElement.style.height = "700px";
+            var scriptElement = document.createElement("script");
+            scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+          </script>
+
+          <div class="text-center mt-5">
+            <a href="app.html" class="btn btn-primary">Try My Joke Generator →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-top bg-dark text-white py-4">
+    <div class="container px-4 px-lg-5 text-center">
+      <a href="https://www.linkedin.com/in/luke-wagner-b398a9306/" class="text-white me-3">LinkedIn</a>
+      <a href="https://github.com" class="text-white">GitHub</a>
+      <div class="small mt-2">&copy; Luke Wagner 2025</div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

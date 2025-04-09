@@ -1,0 +1,7 @@
+<script>start("/Users/lukewagner/IS 201/Final Web Development Project/IMG/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("AVERYSNOW.JPG","AVERYSNOW.JPG",0,5502887,"5.2 MB",1744134077,"4/8/25, 11:41:17 AM");</script>
+<script>addRow("HEADSHOT.JPG","HEADSHOT.JPG",0,796170,"778 kB",1744134848,"4/8/25, 11:54:08 AM");</script>
+<script>addRow("HEADSHOT@.jpg","HEADSHOT@.jpg",0,544416,"532 kB",1744160172,"4/8/25, 6:56:12 PM");</script>
+<script>addRow("JOESNOWBRO.JPG","JOESNOWBRO.JPG",0,1797687,"1.7 MB",1744134027,"4/8/25, 11:40:27 AM");</script>
+<script>addRow("PRAGUE.JPG","PRAGUE.JPG",0,445366,"435 kB",1744135046,"4/8/25, 11:57:26 AM");</script>
